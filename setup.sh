@@ -13,8 +13,8 @@ sudo apt -y install php8.0
 
 echo "sudo phpmyadmin"
 sudo apt install phpmyadmin
-sudo cp /etc/phpmyadmin/apache.conf /etc/apache2/conf-available/phpmyadmin.conf
-sudo a2enconf phpmyadmin.conf
+#sudo cp /etc/phpmyadmin/apache.conf /etc/apache2/conf-available/phpmyadmin.conf
+#sudo a2enconf phpmyadmin.conf
 sudo service apache2 restart
 sudo apt install cockpit
 
