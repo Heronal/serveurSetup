@@ -6,15 +6,15 @@ sudo apt -y upgrade
 echo "sudo apache2"
 sudo apt -y install apache2
 echo "sudo mysql"
-sudo apt install mysql-server
+sudo apt -y install mysql-server
 echo "sudo php"
 sudo apt -y install php8.0
 
 echo "sudo phpmyadmin"
-sudo apt install phpmyadmin
+sudo apt -y install phpmyadmin
 
 sudo service apache2 restart
-sudo apt install cockpit
+sudo apt -y install cockpit
 
 
 sudo chmod +x serverSetup.sh
