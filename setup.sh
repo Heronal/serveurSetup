@@ -4,7 +4,7 @@ echo "sudo upgrade"
 sudo apt -y upgrade
 
 echo "sudo apache2"
-sudo apt -g -y install apache2
+sudo apt -y install apache2
 echo "sudo mysql"
 sudo apt -get install mysql-server
 echo "sudo php"
