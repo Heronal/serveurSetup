@@ -1,5 +1,5 @@
 sudo apt update
-sudo apt upgrade
+sudo apt -y upgrade
 sudo chmod u+x script
 sudo chmod 744 script
 
