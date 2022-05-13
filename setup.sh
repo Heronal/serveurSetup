@@ -1,4 +1,6 @@
+echo "sudo update"
 sudo apt update
+echo "sudo upgrade"
 sudo apt -y upgrade
 sudo chmod u+x script
 sudo chmod 744 script
