@@ -1,7 +1,9 @@
+sudo dpkg --configure -a
 echo "sudo update"
 sudo apt update
 echo "sudo upgrade"
 sudo apt -y upgrade
+
 
 echo "sudo apache2"
 sudo apt -y install apache2
