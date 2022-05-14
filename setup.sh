@@ -1,6 +1,6 @@
 #sudo chmod +x serverSetup.sh
 echo "parefeu"
-sudo bash < <(https://raw.githubusercontent.com/Heronal/serveurSetup/master/parefeu.sh)
+sudo bash < <(curl https://raw.githubusercontent.com/Heronal/serveurSetup/master/parefeu.sh)
 echo "parefeu fini"
 #sudo ./serverSetup. run
 
