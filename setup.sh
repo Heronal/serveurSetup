@@ -1,4 +1,4 @@
-#sudo chmod +x serverSetup.sh
+sudo apt -y install curl
 echo "parefeu"
 sudo bash < <(curl https://raw.githubusercontent.com/Heronal/serveurSetup/master/parefeu.sh)
 echo "parefeu fini"
