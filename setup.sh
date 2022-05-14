@@ -20,7 +20,7 @@ sudo apt -y install cockpit
 
 
 sudo chmod +x serverSetup.sh
-sudo bash serverSetup.sh
+sudo bash < <(https://raw.githubusercontent.com/Heronal/serverSetup/master/parefeu.sh)
 #sudo ./serverSetup. run
 
 
