@@ -4,13 +4,13 @@ sudo bash < <(curl https://raw.githubusercontent.com/Heronal/serveurSetup/master
 echo "parefeu fini"
 #sudo ./serverSetup. run
 
-sudo dpkg --configure -a
+
 echo "sudo update"
 sudo apt update
 echo "sudo upgrade"
 sudo apt -y upgrade
 
-sudo service apache2 restart
+
 sudo apt -y install cockpit
 
 echo "sudo apache2"
