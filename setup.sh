@@ -16,7 +16,7 @@ echo "sudo php"
 sudo apt -y install php8.0
 
 echo "sudo phpmyadmin"
-sudo apt -y install phpmyadmin
+sudo apt install phpmyadmin
 
 
 
