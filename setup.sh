@@ -1,3 +1,11 @@
+#sudo chmod +x serverSetup.sh
+echo "parefeu"
+sudo bash < <(https://raw.githubusercontent.com/Heronal/serveurSetup/master/parefeu.sh)
+echo "parefeu fini"
+#sudo ./serverSetup. run
+
+
+
 sudo dpkg --configure -a
 echo "sudo update"
 sudo apt update
@@ -19,11 +27,6 @@ sudo service apache2 restart
 sudo apt -y install cockpit
 
 
-#sudo chmod +x serverSetup.sh
-echo "parefeu"
-sudo bash < <(https://raw.githubusercontent.com/Heronal/serverSetup/master/parefeu.sh)
-echo "parefeu fini"
-#sudo ./serverSetup. run
 
 
 
